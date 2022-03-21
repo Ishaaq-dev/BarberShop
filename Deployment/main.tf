@@ -34,10 +34,10 @@ resource "aws_dynamodb_table" "num_of_clients_in_barbers_dynamodb" {
   name           = local.num_of_clients_in_barbers_dynamo_name
   read_capacity  = 1
   write_capacity = 1
-  hash_key       = "id"
+  hash_key       = "barber_shop_id"
 
   attribute {
-    name = "id"
+    name = "barber_shop_id"
     type = "S"
   }
 }
