@@ -188,4 +188,4 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-*.zip
+*/src-zip/*.zip
